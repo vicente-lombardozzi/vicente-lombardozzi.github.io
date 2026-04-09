@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Proyectos
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Portafolio de proyectos de análisis de datos, sostenibilidad e investigación aplicada.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Data & Sostenibilidad, Investigación]
 horizontal: false
 ---
 

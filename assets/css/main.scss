@@ -38,11 +38,45 @@
 @use "font-awesome/solid";
 @use "font-awesome/regular";
 
-/* ---------------------------------------------------------------------------
-   Typography override — fuentes más sobrias y profesionales (Vicente portfolio)
-   Inter para body (sans-serif moderna y neutral)
-   Merriweather para headings (serif académica)
-   --------------------------------------------------------------------------- */
+/* ===========================================================================
+   VICENTE LOMBARDOZZI — Custom theme overrides
+   Paleta: verde salvia (sustentabilidad) + cream + slate
+   Tipografía: Manrope (body, moderna geométrica) + Fraunces (headings, serif con carácter)
+   =========================================================================== */
+
+:root {
+  /* Colores base */
+  --global-bg-color: #faf9f6;                    /* cream / warm white */
+  --global-text-color: #2c3e35;                  /* dark forest */
+  --global-text-color-light: #6b7b6e;            /* muted sage */
+
+  /* Verde salvia como color de acento */
+  --global-theme-color: #6b9075;                 /* sage medio */
+  --global-hover-color: #4f7058;                 /* sage profundo (hover) */
+  --global-hover-text-color: #faf9f6;
+
+  /* Tarjetas y divisores */
+  --global-card-bg-color: #ffffff;
+  --global-divider-color: rgba(107, 144, 117, 0.18);
+  --global-highlight-color: #6b9075;
+
+  /* Footer con verde oscuro */
+  --global-footer-bg-color: #2c3e35;
+  --global-footer-text-color: #d8e0da;
+  --global-footer-link-color: #a8c4ad;
+
+  /* Código inline */
+  --global-code-bg-color: #eef2ef;
+}
+
+/* Sobrescritura del modo dark para mantener coherencia si alguien lo activa */
+html[data-theme="dark"] {
+  --global-theme-color: #8fb398;
+  --global-hover-color: #a8c4ad;
+  --global-hover-text-color: #1a2420;
+}
+
+/* ---------- Tipografía ---------- */
 body,
 p,
 li,
@@ -53,34 +87,118 @@ th,
 button,
 input,
 textarea,
-select {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+select,
+.post-content,
+.card-text {
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
   font-weight: 400;
+  font-feature-settings: "ss01", "ss02", "cv11";
 }
 
 h1, h2, h3, h4, h5, h6,
 .post-title,
 .card-title,
-.profile .name,
-.navbar-brand {
-  font-family: "Merriweather", Georgia, "Times New Roman", serif !important;
-  font-weight: 700;
-  letter-spacing: -0.01em;
+.profile .name {
+  font-family: "Fraunces", Georgia, "Times New Roman", serif !important;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  font-variation-settings: "opsz" 144, "SOFT" 30;
 }
 
-/* Subtítulo del hero más elegante */
+/* Hero del perfil */
+.profile .name {
+  font-weight: 700;
+  font-variation-settings: "opsz" 144, "SOFT" 50;
+  color: var(--global-text-color);
+}
+
 .profile .subtitle,
 p.subtitle {
-  font-family: "Inter", sans-serif !important;
-  font-weight: 400;
-  font-style: italic;
+  font-family: "Manrope", sans-serif !important;
+  font-weight: 500;
+  font-style: normal;
   color: var(--global-text-color-light);
+  letter-spacing: 0.005em;
 }
 
-/* Navbar más limpio */
+/* ---------- Navbar ---------- */
 .navbar .nav-link {
-  font-family: "Inter", sans-serif !important;
+  font-family: "Manrope", sans-serif !important;
   font-weight: 500;
-  letter-spacing: 0.02em;
-  text-transform: lowercase;
+  letter-spacing: 0.01em;
+  text-transform: none;        /* respetar mayúsculas/minúsculas del título */
+  font-size: 0.95rem;
+  color: var(--global-text-color) !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--global-theme-color) !important;
+}
+
+.navbar-brand {
+  font-family: "Fraunces", serif !important;
+  font-weight: 700;
+  font-variation-settings: "opsz" 144;
+}
+
+/* ---------- Links con acento sage ---------- */
+a,
+a:visited {
+  color: var(--global-theme-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.18s ease;
+}
+
+a:hover {
+  color: var(--global-hover-color);
+  border-bottom-color: var(--global-hover-color);
+}
+
+/* ---------- Bloques destacados ---------- */
+strong, b {
+  color: var(--global-text-color);
+  font-weight: 700;
+}
+
+/* Línea de acento debajo de h2/h3 */
+h2, h3 {
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid var(--global-divider-color);
+  margin-top: 1.8em;
+}
+
+/* Bloque more_info con iconos Font Awesome */
+.profile .more-info,
+.profile .more_info {
+  font-family: "Manrope", sans-serif !important;
+  font-size: 0.88rem;
+  color: var(--global-text-color-light);
+  line-height: 1.7;
+}
+
+.profile .more-info i,
+.profile .more_info i {
+  color: var(--global-theme-color);
+  margin-right: 0.5em;
+  width: 1em;
+  text-align: center;
+}
+
+/* Iconos sociales más sobrios */
+.social .contact-icons a {
+  color: var(--global-text-color-light);
+  transition: color 0.18s ease;
+}
+
+.social .contact-icons a:hover {
+  color: var(--global-theme-color);
+  border-bottom: none;
+}
+
+/* Card hover con acento sage */
+.card.hoverable:hover {
+  border-color: var(--global-theme-color);
+  box-shadow: 0 6px 20px rgba(107, 144, 117, 0.12);
 }

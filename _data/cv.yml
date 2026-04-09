@@ -1,189 +1,242 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Vicente Lombardozzi
+  label: Data Analyst & Sustainability Researcher
+  email: lombardozziv@gmail.com
+  location: Viña del Mar, Chile
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Sociólogo con Magíster en Economía Ecológica (University of Leeds, UK) y más de 2 años de experiencia como Data Analyst en investigación de mercado, inteligencia de datos y entrenamiento de modelos de lenguaje. Busco oportunidades 100% remotas o híbridas en Data Analytics, Sustainability Data Analysis y Research Analysis.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
+      username: vicente-lombardozzi
+    - network: GitHub
+      username: vicente-lombardozzi
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: Diego Portales 365, Recreo
+    city: Viña del Mar
+    region: Valparaíso
+    postalCode: "2520000"
+    countryCode: CL
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: University of Leeds
+        location: Leeds, Inglaterra, Reino Unido
+        url: https://www.leeds.ac.uk/
+        area: Economía Ecológica
+        studyType: MSc in Ecological Economics
+        start_date: 2017
+        end_date: 2019
         highlights:
-          - Description 1.
-          - Description 2.
+          - Tesis sobre sostenibilidad económica de ecoaldeas (caso Findhorn, Escocia)
+          - Métodos cuantitativos aplicados (Matlab, Stata, análisis input-output, system dynamics, KAYA, STIRPAT)
+          - Cost-Benefit Analysis de proyectos de energía renovable
+          - Validación de inglés académico
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Universidad Viña del Mar
+        location: Viña del Mar, Chile
+        url: https://www.uvm.cl/
+        area: Sociología
+        studyType: Sociólogo
+        start_date: 2011
+        end_date: 2016
         highlights:
-          - Description 1.
-          - Description 2.
+          - Tesis de pregrado sobre formas de organización de comunidades ecológicas
+          - Metodologías cuantitativas y cualitativas de investigación social
+          - Base de publicaciones académicas posteriores
+
+      - institution: eClass
+        location: Chile
+        area: Gestión Ambiental
+        studyType: Diplomado
+        start_date: 2021
+        end_date: 2021
+        highlights:
+          - Normativa ambiental chilena (SEIA, Ley 19.300)
+          - Sistemas de gestión ambiental ISO 14.001
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Carpedent
+        position: Analista de Inventario
+        location: Viña del Mar, Chile
+        start_date: 2025-01
+        end_date: 2025-07
+        summary: Gestión de inventarios de insumos dentales y digitalización de procesos logísticos.
         highlights:
-          - Relativity
-          - Description 2.
+          - Lideré la implementación del sistema Bsale para registro de ventas y control de inventario
+          - Mejoré la trazabilidad de insumos y reduje pérdidas operativas
+          - Digitalicé procesos logísticos internos
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Outlier
+        position: AI Data Trainer (LLMs)
+        location: Remoto
+        start_date: 2024-06
+        end_date: 2025-01
+        summary: Entrenamiento y validación de modelos de lenguaje de IA en español e inglés.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Etiquetado y validación de respuestas de modelos LLM
+          - Aplicación de criterios lingüísticos y de calidad para mejorar precisión del sistema
+          - Contribuí a mejorar el desempeño de modelos conversacionales multi-idioma
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Instituto Nacional de Estadísticas (INE)
+        position: Gestor de Apertura Territorial — Censo 2024
+        location: Viña del Mar, Chile
+        start_date: 2023-12
+        end_date: 2024-06
+        summary: Recopilación y ordenamiento de datos para el Censo Nacional 2024.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Ordenamiento de datos para más de 500 registros en Excel
+          - Obtuve más de 20 sedes vecinales mediante negociación con líderes comunitarios
+          - Optimicé recursos del censo en áreas de alta vulnerabilidad social
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Ipsos
+        position: Research Analyst
+        location: Santiago, Chile
+        url: https://www.ipsos.com/
+        start_date: 2022-06
+        end_date: 2023-10
+        summary: Diseño de encuestas y análisis cuantitativo de datos para una comunidad online internacional.
+        highlights:
+          - Analicé datos de 24.547 miembros en 7 categorías de negocio a lo largo de 11 países
+          - Creé informes sobre 33 KPIs con comparativas históricas
+          - Obtuve 90% de feedback positivo y control de costos con desviación inferior al 5%
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Market One
+        position: Auditor de Campo — Investigación de Mercado
+        location: Viña del Mar, Chile
+        start_date: 2021-07
+        end_date: 2021-12
+        summary: Monitoreo de visibilidad y disponibilidad de productos en 300+ puntos de venta.
+        highlights:
+          - 100% de auditorías completadas en tiempo y forma
+          - Generé insights clave sobre estrategia de marca en puntos de venta
+
+      - company: Freelance
+        position: Revisor de Tesis Doctoral en Inglés Académico
+        location: Viña del Mar, Chile
+        start_date: 2020-12
+        end_date: 2022-12
+        summary: Corrección del uso académico del inglés en tesis doctorales.
+        highlights:
+          - Contribuí a la aprobación de la propuesta de tesis
+          - Adaptación al formato académico de la University of South Africa
+
+      - company: Universidad Viña del Mar
+        position: Tutor Académico
+        location: Viña del Mar, Chile
+        start_date: 2012-08
+        end_date: 2015-12
+        summary: Diseño y desarrollo de clases semanales y corrección de evaluaciones.
+        highlights:
+          - El material generado fue utilizado en una publicación académica posterior
+          - Incluye base para una nueva teoría sociológica innovadora
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Formas de organización de una ecoaldea chilena: La Teoría de los Vectores Organizativos"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Vicente Lombardozzi
+        publisher: Editorial Académica Española
+        releaseDate: 2017
+        summary: Libro académico basado en investigación etnográfica sobre una ecoaldea chilena, proponiendo un marco teórico propio — la Teoría de los Vectores Organizativos — para analizar formas de organización comunitaria.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Towards a new community resilience understanding"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Vicente Lombardozzi
+        publisher: Sustainable Communities Review, 14(1), pp. 22-31
+        releaseDate: 2021
+        summary: Artículo académico sobre resiliencia comunitaria en el contexto de ecoaldeas, combinando teoría sociológica con hallazgos empíricos.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "Nuevas reflexiones sobre comunidad y sociedad: el caso de la ecoaldea X"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Vicente Lombardozzi
+        publisher: Persona y Sociedad, 31(1), pp. 27-47
+        url: https://doi.org/10.53689/pys.v31i1.113
+        releaseDate: 2017
+
+      - title: "Imaginarios sociales sobre la comunidad. Un caso contemporáneo, la ecoaldea X"
+        authors:
+          - Vicente Lombardozzi
+        publisher: "Pensamiento y Acción Disciplinaria, 1(1), pp. 76-89"
+        releaseDate: 2016
+
+      - title: "Ecológica (André Gorz)"
+        authors:
+          - Vicente Lombardozzi
+        publisher: "Sociología y Pensamiento Latinoamericano Kütral, 9, pp. 121-125"
+        releaseDate: 2015
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Análisis cuantitativo
+        level: Avanzado
+        icon: fa-solid fa-chart-column
+        keywords: "Python (pandas, numpy, matplotlib, seaborn), R, SQL, Stata, SPSS, Excel avanzado, Power BI, estadística descriptiva e inferencial"
+
+      - name: Investigación y metodología
+        level: Avanzado
+        icon: fa-solid fa-magnifying-glass-chart
+        keywords: "Diseño de encuestas, muestreo, análisis factorial, KPIs, reportes ejecutivos, metodologías cualitativas (Atlas.ti, NVivo)"
+
+      - name: Sostenibilidad y ESG
+        level: Intermedio
+        icon: fa-solid fa-leaf
+        keywords: "Economía Ecológica, análisis KAYA, STIRPAT, input-output, Cost-Benefit Analysis, SEIA, GIS (ArcMap), ISO 14.001, system dynamics (Vensim)"
+
+      - name: Inteligencia Artificial
+        level: Intermedio
+        icon: fa-solid fa-robot
+        keywords: "LLMs, prompt engineering, evaluación de modelos conversacionales, etiquetado de datos, NLP en español"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Español
+        summary: "Nativo"
+        icon: fa-solid fa-comment
 
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Inglés
+        summary: "Avanzado — validado por MSc en University of Leeds (UK) y revisión académica de tesis doctorales"
+        icon: fa-solid fa-globe
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: Python esencial
+        date: 2024
+        issuer: LinkedIn Learning
+        icon: fa-brands fa-python
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: Aprende programación SQL
+        date: 2024
+        issuer: LinkedIn Learning
+        icon: fa-solid fa-database
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Programación en R para Análisis de Datos
+        date: 2023
+        issuer: Pontificia Universidad Católica de Chile
+        icon: fa-solid fa-chart-line
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: Excel — Análisis de datos, Macros y VBA
+        date: 2022
+        issuer: LinkedIn Learning
+        icon: fa-solid fa-table
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: STATA I
+        date: 2021
+        issuer: Universidad de Chile
+        icon: fa-solid fa-square-root-variable
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Fundamentals of GIS
+        date: 2021
+        issuer: University of California, Davis
+        icon: fa-solid fa-map-location-dot
+
+      - name: Auditor Interno ISO 14.001
+        date: 2020
+        issuer: Sensus Consultores
+        icon: fa-solid fa-leaf
+
+    Interests:
+      - name: Data Analytics & Sostenibilidad
+        icon: fa-solid fa-chart-pie
+        keywords: "ESG, carbono, economía circular, políticas públicas ambientales, indicadores sociales"
+
+      - name: Investigación académica
+        icon: fa-solid fa-book
+        keywords: "Comunidades ecológicas, resiliencia, economía ecológica, sociología de la sostenibilidad"

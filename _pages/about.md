@@ -1,6 +1,6 @@
 ---
 layout: about
-title: sobre mí
+title: Sobre mí
 permalink: /
 subtitle: Data Analyst · Sociólogo · MSc en Economía Ecológica (University of Leeds)
 
@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: true
   more_info: >
-    <p><strong>Viña del Mar, Chile</strong></p>
-    <p>Disponible para trabajo remoto o híbrido</p>
-    <p>Español nativo · Inglés avanzado</p>
+    <p><i class="fa-solid fa-location-dot"></i> Viña del Mar, Chile</p>
+    <p><i class="fa-solid fa-laptop"></i> Remoto o híbrido</p>
+    <p><i class="fa-solid fa-language"></i> Español · Inglés avanzado</p>
 
 selected_papers: false
 social: true
