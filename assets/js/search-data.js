@@ -44,51 +44,41 @@ ninja.data = [{
           section: "News",},{id: "news-portafolio-en-construcción-activa-desarrollando-siete-proyectos-de-data-analytics-aplicados-a-sostenibilidad-economía-ecológica-y-políticas-públicas-en-chile",
           title: '🚀 Portafolio en construcción activa. Desarrollando siete proyectos de data analytics aplicados a...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-emisiones-de-co2-en-chile",
+          title: 'Emisiones de CO2 en Chile',
+          description: "Re-analisis en Python de mi tesina del MSc Leeds 2019. KAYA, STIRPAT y proyecciones al 2050.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_chile_co2/";
+            },},{id: "projects-dashboard-indicadores-chile",
+          title: 'Dashboard Indicadores Chile',
+          description: "Dashboard interactivo con datos del Banco Mundial y CASEN. Construido en Plotly como alternativa open-source equivalente a Power BI.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_powerbi_chile/";
+            },},{id: "projects-desigualdad-de-ingresos-en-chile",
+          title: 'Desigualdad de Ingresos en Chile',
+          description: "Analisis estadistico en R de desigualdad economica y de tiempo en Chile, usando datos de CASEN y ENUT.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/3_desigualdad_r/";
+            },},{id: "projects-sentiment-analysis-en-espanol",
+          title: 'Sentiment Analysis en Espanol',
+          description: "Comparacion de tres enfoques de NLP para clasificar sentimiento en resenas en espanol, desde un lexicon simple hasta TF-IDF y SVM.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/4_nlp_sentiment/";
+            },},{id: "projects-base-de-datos-de-ecoaldeas-chilenas",
+          title: 'Base de Datos de Ecoaldeas Chilenas',
+          description: "Diseno e implementacion de una base de datos relacional PostgreSQL para gestionar informacion sobre comunidades ecologicas chilenas.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/5_ecoaldeas_sql/";
+            },},{id: "projects-system-dynamics-de-vensim-a-python",
+          title: 'System Dynamics de Vensim a Python',
+          description: "Re-implementacion en Python (scipy.integrate) de modelos de dinamica de sistemas que originalmente construi en Vensim durante mi MSc en Leeds.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/projects/6_system_dynamics/";
+            },},{id: "projects-cba-paneles-solares-liceo",
+          title: 'CBA Paneles Solares Liceo',
+          description: "Re-implementacion en Python de un CBA real sobre instalacion de 70 kWp fotovoltaicos en el Liceo Alfredo Nazar Feres (Valparaiso).",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/7_cba_solar/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
