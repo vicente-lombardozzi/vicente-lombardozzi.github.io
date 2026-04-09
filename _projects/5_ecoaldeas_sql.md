@@ -4,7 +4,7 @@ title: "Base de Datos Relacional: Ecoaldeas Chilenas"
 description: Diseño e implementación de una base de datos PostgreSQL para gestionar información sobre comunidades ecológicas chilenas, basada en mi propia investigación académica publicada.
 img: assets/img/projects/p5_sql.png
 importance: 6
-category: Investigación
+category: investigacion
 giscus_comments: false
 ---
 

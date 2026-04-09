@@ -4,7 +4,7 @@ title: "Dashboard de Indicadores Socioeconómicos de Chile"
 description: Dashboard interactivo con datos del Banco Mundial y CASEN. Construido en Plotly como alternativa open-source equivalente a Power BI, embebible en cualquier navegador.
 img: assets/img/projects/p2_powerbi.png
 importance: 3
-category: Data & Sostenibilidad
+category: data-sostenibilidad
 giscus_comments: false
 ---
 

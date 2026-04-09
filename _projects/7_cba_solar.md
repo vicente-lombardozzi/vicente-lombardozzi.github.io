@@ -4,7 +4,7 @@ title: "Análisis Costo-Beneficio: Paneles Solares en una Escuela Pública"
 description: Re-implementación en Python de un CBA real sobre instalación de 70 kWp fotovoltaicos en el Liceo Alfredo Nazar Feres (Valparaíso). Incluye análisis de sensibilidad y actualización de parámetros 2019 → 2026.
 img: assets/img/projects/p7_cba.png
 importance: 2
-category: Data & Sostenibilidad
+category: data-sostenibilidad
 giscus_comments: false
 ---
 

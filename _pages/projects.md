@@ -5,7 +5,7 @@ permalink: /projects/
 description: Portafolio de proyectos de análisis de datos, sostenibilidad e investigación aplicada.
 nav: true
 nav_order: 3
-display_categories: [Data & Sostenibilidad, Investigación]
+display_categories: ["data-sostenibilidad", "investigacion"]
 horizontal: false
 ---
 

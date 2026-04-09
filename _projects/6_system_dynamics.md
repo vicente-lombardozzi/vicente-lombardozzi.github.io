@@ -4,7 +4,7 @@ title: "System Dynamics: de Vensim a Python"
 description: Re-implementación en Python (scipy.integrate) de modelos de dinámica de sistemas que originalmente construí en Vensim durante mi MSc en Leeds. Incluye Lotka-Volterra, savings-income y un modelo de recurso renovable.
 img: assets/img/projects/p6_systemdyn.png
 importance: 7
-category: Investigación
+category: investigacion
 giscus_comments: false
 ---
 
