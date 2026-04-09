@@ -1,34 +1,38 @@
 ---
 layout: about
-title: about
+title: sobre mí
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Data Analyst · Sociólogo · MSc en Economía Ecológica (University of Leeds, UK)
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>📍 Viña del Mar, Chile</p>
+    <p>🌐 Abierto a trabajo 100% remoto</p>
+    <p>🗣️ Español · Inglés avanzado</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Soy **Data Analyst** con formación en sociología y un **Máster en Economía Ecológica** de la [University of Leeds](https://www.leeds.ac.uk/), en Inglaterra. Combino rigor metodológico académico con análisis aplicado a la toma de decisiones en contextos reales.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Tengo más de 2 años de experiencia en análisis cuantitativo e investigación, incluyendo un año como **Research Analyst en [Ipsos](https://www.ipsos.com/)** analizando datos de 24.000+ usuarios en 11 países, experiencia en **entrenamiento de modelos de lenguaje (LLMs) en Outlier**, y trabajo de campo para el **Instituto Nacional de Estadísticas de Chile** en el censo 2024.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Trabajo con **Python, SQL, Power BI, R, Excel avanzado y Stata**. Mi foco profesional es la intersección entre **análisis de datos y sostenibilidad**: datos aplicados a cambio climático, energía, política pública y economía circular.
+
+Como sociólogo publicado (4 artículos académicos y 1 libro sobre comunidades ecológicas), entiendo que los datos solo son útiles cuando se convierten en **narrativas claras para distintos públicos**. Ese es el puente que construyo en cada proyecto.
+
+Busco oportunidades como **Data Analyst, Sustainability Data Analyst o Research Analyst**, en modalidad 100% remota desde Viña del Mar. Puedes ver mis proyectos en la sección [projects](/projects/), mis publicaciones académicas en [publications](/publications/), o descargar mi [CV completo](/cv/).
