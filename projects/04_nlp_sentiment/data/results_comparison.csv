@@ -1,0 +1,4 @@
+modelo,accuracy
+Lexicon,0.7222222222222222
+BoW + LogReg,1.0
+TF-IDF + SVM,1.0
