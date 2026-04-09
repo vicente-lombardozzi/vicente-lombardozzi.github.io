@@ -37,3 +37,50 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+/* ---------------------------------------------------------------------------
+   Typography override — fuentes más sobrias y profesionales (Vicente portfolio)
+   Inter para body (sans-serif moderna y neutral)
+   Merriweather para headings (serif académica)
+   --------------------------------------------------------------------------- */
+body,
+p,
+li,
+div,
+span,
+td,
+th,
+button,
+input,
+textarea,
+select {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6,
+.post-title,
+.card-title,
+.profile .name,
+.navbar-brand {
+  font-family: "Merriweather", Georgia, "Times New Roman", serif !important;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* Subtítulo del hero más elegante */
+.profile .subtitle,
+p.subtitle {
+  font-family: "Inter", sans-serif !important;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--global-text-color-light);
+}
+
+/* Navbar más limpio */
+.navbar .nav-link {
+  font-family: "Inter", sans-serif !important;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+}

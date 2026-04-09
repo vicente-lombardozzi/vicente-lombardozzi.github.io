@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2019-12-16 15:00:00+0000
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+🎓 Obtuve el grado de **MSc in Ecological Economics** en la **University of Leeds**, Reino Unido, con una tesis sobre sostenibilidad económica de ecoaldeas.
