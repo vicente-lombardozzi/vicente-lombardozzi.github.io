@@ -4,7 +4,7 @@ title: "Emisiones de CO₂ en Chile (1990–2050)"
 description: Re-análisis en Python de mi tesina del MSc Leeds (2019). Descomposición KAYA, modelo STIRPAT, proyecciones BAU y sostenible al 2050.
 img: assets/img/projects/p1_chile_co2.png
 importance: 1
-category: data-sostenibilidad
+category: data
 giscus_comments: false
 ---
 

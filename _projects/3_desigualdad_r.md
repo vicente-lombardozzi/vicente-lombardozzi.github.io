@@ -4,7 +4,7 @@ title: "Desigualdad de Ingresos y Tiempo en Chile"
 description: Análisis estadístico de desigualdad económica y de tiempo en Chile usando R y CASEN. Incluye Gini, Theil, Atkinson, curva de Lorenz y análisis de doble desigualdad por género.
 img: assets/img/projects/p3_desigualdad.png
 importance: 4
-category: data-sostenibilidad
+category: data
 giscus_comments: false
 ---
 

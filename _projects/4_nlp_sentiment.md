@@ -4,7 +4,7 @@ title: "Análisis de Sentimiento en Reseñas en Español"
 description: Comparación de tres enfoques de NLP para clasificar sentimiento en reseñas en español, desde un lexicon simple hasta TF-IDF + SVM. Aprovecha mi experiencia previa entrenando LLMs en Outlier.
 img: assets/img/projects/p4_nlp.png
 importance: 5
-category: data-sostenibilidad
+category: data
 giscus_comments: false
 ---
 
