@@ -1,0 +1,8 @@
+Escenario,NPV (USD)
+"P1 — Ecoambiente, dr=3.5%",35615.0
+"P2 — Ecolife, dr=3.5%",62288.0
+"P2 — Ecolife, dr=10% (Chile)",6346.0
+"P2 — Ecolife, +20% precio elec",89393.0
+"P2 — Ecolife, -20% precio elec",35183.0
+"Peor escenario (P1, +20% elec, dr=10%)",-3880.0
+P2 — actualizado 2026 (CO2 USD 85),96486.0

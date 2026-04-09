@@ -1,0 +1,6 @@
+indice,valor,interpretacion
+Gini,0.4504910373794344,"0 = igualdad, 1 = desigualdad máxima"
+Theil,0.3537534347419402,Sensible a transferencias
+Atkinson (e=0.5),0.16323709219891813,Sensible a colas (e bajo)
+Atkinson (e=1.0),0.3008404621101569,Sensible a colas (e alto)
+Ratio P90/P10,9.035478902919742,P90 / P10

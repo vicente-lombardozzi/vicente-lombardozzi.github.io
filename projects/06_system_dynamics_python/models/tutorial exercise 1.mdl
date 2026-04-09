@@ -1,0 +1,83 @@
+{UTF-8}
+income  = A FUNCTION OF( work effort)
+	~	
+	~		|
+
+interest  = A FUNCTION OF( savings)
+	~	
+	~		|
+
+savings  = A FUNCTION OF( income,interest)
+	~	
+	~		|
+
+work effort  = A FUNCTION OF( savings)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Arial|10||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,interest,344,244,24,9,8,3,0,0,0,0,0,0
+10,2,savings,504,244,24,9,8,3,0,0,0,0,0,0
+10,3,income,653,170,23,9,8,3,0,0,0,0,0,0
+10,4,work effort,681,249,24,18,8,131,0,0,0,0,0,0
+1,5,1,2,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(425,150)|
+1,6,2,1,1,0,43,0,2,64,0,-1--1--1,|0||0-0-0,1|(423,321)|
+1,7,2,4,1,0,45,0,2,65,0,-1--1--1,|0||-1--1--1,1|(656,298)|
+1,8,4,3,1,0,0,0,0,64,0,-1--1--1,,1|(682,209)|
+1,9,3,2,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(593,140)|
+12,10,2,424,237,23,23,4,3,0,0,-1,0,0,0
+12,12,1,590,232,23,23,5,3,0,0,-1,0,0,0
+12,13,0,512,113,87,13,8,135,0,8,-1,0,0,0,-1--1--1,0-0-0,|12||0-0-0
+SAVING AND INCOME
+12,14,0,642,111,40,20,8,3,0,0,-1,0,0,0
+12,15,0,896,179,40,20,8,3,0,0,-1,0,0,0
+///---\\\
+:L<%^E!@
+9:Current
+23:0
+15:0,0,0,0,0,0
+19:100,0
+27:0,
+34:0,
+5:savings
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+42:1
+24:0
+25:0
+26:0
