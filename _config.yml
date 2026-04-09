@@ -198,21 +198,8 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - projects/
-  - .gemini/
-  - AGENTS.md
-  - ANALYTICS.md
-  - SEO.md
-  - TROUBLESHOOTING.md
-  - QUICKSTART.md
-  - .all-contributorsrc
-  - .pre-commit-config.yaml
-  - .prettierrc
-  - .prettierignore
-  - .lycheeignore
-  - .git-blame-ignore-revs
+  - _pages/about_einstein.md
   - purgecss.config.js
-  - _projects
   - README.md
   - readme_preview/
   - vendor
@@ -473,7 +460,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Manrope:300,400,500,600,700|Fraunces:400,500,600,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:
