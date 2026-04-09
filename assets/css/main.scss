@@ -202,3 +202,132 @@ h2, h3 {
   border-color: var(--global-theme-color);
   box-shadow: 0 6px 20px rgba(107, 144, 117, 0.12);
 }
+
+/* ===========================================================================
+   Toques de color sage en zonas estratégicas (para romper la monotonía blanca)
+   =========================================================================== */
+
+/* H1 del hero - unificar tipografía */
+h1.post-title {
+  font-family: "Fraunces", Georgia, serif !important;
+  font-weight: 700 !important;
+  font-variation-settings: "opsz" 144, "SOFT" 50;
+  color: var(--global-text-color);
+  letter-spacing: -0.02em;
+}
+
+h1.post-title span,
+h1.post-title .font-weight-bold {
+  font-family: "Fraunces", Georgia, serif !important;
+  font-weight: 700 !important;
+  font-variation-settings: "opsz" 144, "SOFT" 50;
+}
+
+/* Línea sage sutil debajo del navbar */
+nav.navbar {
+  border-bottom: 1px solid rgba(107, 144, 117, 0.15);
+  box-shadow: 0 1px 4px rgba(107, 144, 117, 0.04);
+}
+
+/* Header del post (hero) con fondo suave sage */
+header.post-header {
+  background: linear-gradient(135deg, rgba(107, 144, 117, 0.05) 0%, rgba(250, 249, 246, 0) 100%);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  border-left: 3px solid var(--global-theme-color);
+}
+
+/* Subtítulo (desc) más elegante */
+p.desc {
+  color: var(--global-text-color-light);
+  font-family: "Manrope", sans-serif !important;
+  font-weight: 500;
+  font-size: 1.05rem;
+  margin-top: 0.5rem;
+}
+
+/* Bloque more_info con fondo sage clarito */
+.profile .more-info,
+.profile .more_info {
+  background: rgba(107, 144, 117, 0.08);
+  padding: 0.9rem 1rem;
+  border-radius: 6px;
+  border-left: 3px solid var(--global-theme-color);
+  margin-top: 0.8rem;
+}
+
+.profile .more-info p,
+.profile .more_info p {
+  margin: 0.2rem 0;
+}
+
+/* Sección de news / announcements con acento sage */
+.news,
+#news {
+  background: rgba(107, 144, 117, 0.04);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 3px solid var(--global-theme-color);
+  margin-top: 2rem;
+}
+
+/* Items individuales de news */
+.news table td,
+#news table td {
+  border: none;
+}
+
+.news table tr,
+#news table tr {
+  border-bottom: 1px dashed rgba(107, 144, 117, 0.2);
+}
+
+.news table tr:last-child,
+#news table tr:last-child {
+  border-bottom: none;
+}
+
+/* Botón de descargar CV con estilo sage */
+.cv-download,
+a.btn[href*="CV"],
+a.btn[href*=".pdf"] {
+  background-color: var(--global-theme-color) !important;
+  border-color: var(--global-theme-color) !important;
+  color: #ffffff !important;
+  font-family: "Manrope", sans-serif !important;
+  font-weight: 500;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.cv-download:hover,
+a.btn[href*="CV"]:hover,
+a.btn[href*=".pdf"]:hover {
+  background-color: var(--global-hover-color) !important;
+  border-color: var(--global-hover-color) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(79, 112, 88, 0.25);
+}
+
+/* Footer con un poco más de personalidad */
+footer {
+  border-top: 3px solid var(--global-theme-color);
+}
+
+/* Selection de texto con color sage */
+::selection {
+  background-color: rgba(107, 144, 117, 0.25);
+  color: var(--global-text-color);
+}
+
+/* Blockquotes con acento */
+blockquote {
+  border-left: 4px solid var(--global-theme-color);
+  background: rgba(107, 144, 117, 0.05);
+  padding: 1rem 1.5rem;
+  border-radius: 0 6px 6px 0;
+  font-style: italic;
+  color: var(--global-text-color-light);
+}
