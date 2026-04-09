@@ -212,6 +212,7 @@ exclude:
   - .lycheeignore
   - .git-blame-ignore-revs
   - purgecss.config.js
+  - _projects
   - README.md
   - readme_preview/
   - vendor
