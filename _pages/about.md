@@ -10,7 +10,7 @@ profile:
   image_circular: true
   more_info: >
     <p><i class="fa-solid fa-location-dot"></i> Viña del Mar, Chile</p>
-    <p><i class="fa-solid fa-laptop"></i> Remoto o híbrido</p>
+    <p><i class="fa-solid fa-laptop"></i> Presencial, remoto o híbrido</p>
     <p><i class="fa-solid fa-language"></i> Español · Inglés avanzado</p>
 
 selected_papers: false
@@ -37,7 +37,7 @@ Como sociólogo publicado (4 artículos académicos y 1 libro sobre comunidades 
 
 ### Disponibilidad actual
 
-Busco oportunidades como **Data Analyst, Sustainability Data Analyst o Research Analyst**. Mi preferencia es el **trabajo 100% remoto desde Viña del Mar**, pero en el corto plazo también estoy abierto a **modalidad híbrida con viajes puntuales a Santiago** (una o dos veces por semana), tal como lo hice durante mi etapa en Ipsos.
+Busco oportunidades como **Data Analyst, Sustainability Data Analyst o Research Analyst**. Abierto a **trabajo presencial o remoto desde Viña del Mar / Valparaíso**, o bien a **modalidad híbrida con viajes puntuales a Santiago** (una o dos veces por semana), tal como lo hice durante mi etapa en Ipsos.
 
 ### Escritura complementaria
 
