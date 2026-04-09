@@ -198,6 +198,19 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
+  - projects/
+  - .gemini/
+  - AGENTS.md
+  - ANALYTICS.md
+  - SEO.md
+  - TROUBLESHOOTING.md
+  - QUICKSTART.md
+  - .all-contributorsrc
+  - .pre-commit-config.yaml
+  - .prettierrc
+  - .prettierignore
+  - .lycheeignore
+  - .git-blame-ignore-revs
   - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
