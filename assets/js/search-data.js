@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "Academic articles, book and published theses, in reverse chronological order.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/en/publications/";
+          },
         },{id: "nav-proyectos",
           title: "Proyectos",
           description: "Portafolio de proyectos de análisis de datos, sostenibilidad e investigación aplicada.",
@@ -23,12 +30,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "Portfolio of data analytics, sustainability and applied research projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/en/projects/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "Currículum Vitae de Vicente Lombardozzi — Data Analyst &amp; Sustainability Researcher.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Curriculum Vitae of Vicente Lombardozzi — Data Analyst &amp; Sustainability Researcher.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/en/cv/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
@@ -49,36 +70,71 @@ ninja.data = [{
           description: "Re-analisis en Python de mi tesina del MSc Leeds 2019. KAYA, STIRPAT y proyecciones al 2050.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_chile_co2/";
+            },},{id: "projects-co2-emissions-in-chile",
+          title: 'CO2 Emissions in Chile',
+          description: "Python re-analysis of my MSc Leeds 2019 dissertation. KAYA, STIRPAT and 2050 projections.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_chile_co2_en/";
             },},{id: "projects-dashboard-indicadores-chile",
           title: 'Dashboard Indicadores Chile',
           description: "Dashboard interactivo con datos del Banco Mundial y CASEN. Construido en Plotly como alternativa open-source equivalente a Power BI.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_powerbi_chile/";
+            },},{id: "projects-chile-indicators-dashboard",
+          title: 'Chile Indicators Dashboard',
+          description: "Interactive dashboard with World Bank and CASEN data. Built in Plotly as an open-source equivalent to Power BI.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_powerbi_chile_en/";
             },},{id: "projects-desigualdad-de-ingresos-en-chile",
           title: 'Desigualdad de Ingresos en Chile',
           description: "Analisis estadistico en R de desigualdad economica y de tiempo en Chile, usando datos de CASEN y ENUT.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_desigualdad_r/";
+            },},{id: "projects-income-inequality-in-chile",
+          title: 'Income Inequality in Chile',
+          description: "Statistical analysis in R of economic and time inequality in Chile, using CASEN and ENUT data.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_desigualdad_r_en/";
             },},{id: "projects-sentiment-analysis-en-espanol",
           title: 'Sentiment Analysis en Espanol',
           description: "Comparacion de tres enfoques de NLP para clasificar sentimiento en resenas en espanol, desde un lexicon simple hasta TF-IDF y SVM.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_nlp_sentiment/";
+            },},{id: "projects-spanish-sentiment-analysis",
+          title: 'Spanish Sentiment Analysis',
+          description: "Comparison of three NLP approaches to classify sentiment in Spanish-language reviews, from a simple lexicon to TF-IDF and SVM.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_nlp_sentiment_en/";
             },},{id: "projects-base-de-datos-de-ecoaldeas-chilenas",
           title: 'Base de Datos de Ecoaldeas Chilenas',
           description: "Diseno e implementacion de una base de datos relacional PostgreSQL para gestionar informacion sobre comunidades ecologicas chilenas.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_ecoaldeas_sql/";
+            },},{id: "projects-chilean-ecovillages-database",
+          title: 'Chilean Ecovillages Database',
+          description: "Design and implementation of a PostgreSQL relational database to manage information on Chilean ecological communities.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_ecoaldeas_sql_en/";
             },},{id: "projects-system-dynamics-de-vensim-a-python",
           title: 'System Dynamics de Vensim a Python',
           description: "Re-implementacion en Python (scipy.integrate) de modelos de dinamica de sistemas que originalmente construi en Vensim durante mi MSc en Leeds.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_system_dynamics/";
+            },},{id: "projects-system-dynamics-from-vensim-to-python",
+          title: 'System Dynamics from Vensim to Python',
+          description: "Python re-implementation (scipy.integrate) of system-dynamics models I originally built in Vensim during my MSc at Leeds.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_system_dynamics_en/";
             },},{id: "projects-cba-paneles-solares-liceo",
           title: 'CBA Paneles Solares Liceo',
           description: "Re-implementacion en Python de un CBA real sobre instalacion de 70 kWp fotovoltaicos en el Liceo Alfredo Nazar Feres (Valparaiso).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_cba_solar/";
+            },},{id: "projects-solar-panels-cba-chilean-high-school",
+          title: 'Solar Panels CBA — Chilean High School',
+          description: "Python re-implementation of a real Cost-Benefit Analysis for a 70 kWp PV installation at Liceo Alfredo Nazar Feres (Valparaíso).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_cba_solar_en/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
