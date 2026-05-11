@@ -2,6 +2,8 @@
 layout: about
 title: Sobre mí
 permalink: /
+lang: es
+alt_url: /en/
 subtitle: Data Analyst · Sociólogo · MSc en Economía Ecológica (University of Leeds)
 
 profile:

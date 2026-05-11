@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: es
 title: CBA Paneles Solares Liceo
 description: Re-implementacion en Python de un CBA real sobre instalacion de 70 kWp fotovoltaicos en el Liceo Alfredo Nazar Feres (Valparaiso).
 img: assets/img/projects/p7_cba.png

@@ -42,15 +42,21 @@
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+          {% assign current_lang = page.lang | default: 'es' %}
+          {% if current_lang == 'en' %}
+            {% assign about_permalink = '/en/' %}
+          {% else %}
+            {% assign about_permalink = '/' %}
+          {% endif %}
+          {% for p in site.pages %}
+            {% if p.permalink == about_permalink %} {% assign about_title = p.title %} {% endif %}
           {% endfor %}
 
           <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
+          <li class="nav-item {% if page.permalink == about_permalink %}active{% endif %}">
+            <a class="nav-link" href="{{ about_permalink | relative_url }}">
               {{- about_title }}
-              {% if page.permalink == '/' %}
+              {% if page.permalink == about_permalink %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
@@ -59,7 +65,8 @@
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
-            {% if p.nav and p.autogen == null %}
+            {% assign p_lang = p.lang | default: 'es' %}
+            {% if p.nav and p.autogen == null and p_lang == current_lang %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
@@ -117,6 +124,25 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          <!-- Language toggle -->
+          {% if current_lang == 'en' %}
+            {% assign alt_lang_url = page.alt_url | default: '/' %}
+            {% assign alt_lang_label = 'Español' %}
+            {% assign alt_lang_flag = '🇪🇸' %}
+            {% assign current_flag = '🇺🇸' %}
+          {% else %}
+            {% assign alt_lang_url = page.alt_url | default: '/en/' %}
+            {% assign alt_lang_label = 'English' %}
+            {% assign alt_lang_flag = '🇺🇸' %}
+            {% assign current_flag = '🇪🇸' %}
+          {% endif %}
+          <li class="nav-item lang-switch">
+            <a class="nav-link" href="{{ alt_lang_url | relative_url }}" title="{{ alt_lang_label }}" aria-label="Switch language to {{ alt_lang_label }}">
+              <span class="lang-flag-current" aria-hidden="true">{{ current_flag }}</span>
+              <span class="lang-flag-sep" aria-hidden="true"> / </span>
+              <span class="lang-flag-alt" aria-hidden="true">{{ alt_lang_flag }}</span>
+            </a>
+          </li>
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">

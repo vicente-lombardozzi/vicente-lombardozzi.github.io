@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Proyectos
-permalink: /projects/
-lang: es
-alt_url: /en/projects/
-description: Portafolio de proyectos de análisis de datos, sostenibilidad e investigación aplicada.
+title: Projects
+permalink: /en/projects/
+lang: en
+alt_url: /projects/
+description: Portfolio of data analytics, sustainability and applied research projects.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+<!-- pages/projects_en.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -22,7 +22,6 @@ horizontal: false
   {% assign lang_projects = site.projects | where: "lang", page.lang %}
   {% assign categorized_projects = lang_projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
@@ -42,12 +41,8 @@ horizontal: false
 
 {% else %}
 
-<!-- Display projects without categories -->
-
 {% assign lang_projects = site.projects | where: "lang", page.lang %}
 {% assign sorted_projects = lang_projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
 
 {% if page.horizontal %}
 

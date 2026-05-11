@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: es
 title: Desigualdad de Ingresos en Chile
 description: Analisis estadistico en R de desigualdad economica y de tiempo en Chile, usando datos de CASEN y ENUT.
 img: assets/img/projects/p3_desigualdad.png

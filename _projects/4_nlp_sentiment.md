@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: es
 title: Sentiment Analysis en Espanol
 description: Comparacion de tres enfoques de NLP para clasificar sentimiento en resenas en espanol, desde un lexicon simple hasta TF-IDF y SVM.
 img: assets/img/projects/p4_nlp.png

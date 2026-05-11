@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: es
 title: Emisiones de CO2 en Chile
 description: Re-analisis en Python de mi tesina del MSc Leeds 2019. KAYA, STIRPAT y proyecciones al 2050.
 img: assets/img/projects/p1_chile_co2.png
