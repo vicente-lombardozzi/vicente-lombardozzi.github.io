@@ -5,7 +5,7 @@ title: Income Inequality in Chile
 description: Statistical analysis in R of economic and time inequality in Chile, using CASEN and ENUT data.
 img: assets/img/projects/p3_desigualdad.png
 importance: 4
-category: work
+category: Work
 related_publications: false
 ---
 

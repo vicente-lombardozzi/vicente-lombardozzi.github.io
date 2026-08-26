@@ -7,7 +7,7 @@ alt_url: /en/projects/
 description: Portafolio de proyectos de análisis de datos, sostenibilidad e investigación aplicada.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Work, Technical]
 horizontal: false
 ---
 

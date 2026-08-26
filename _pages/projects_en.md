@@ -7,7 +7,7 @@ alt_url: /projects/
 description: Portfolio of data analytics, sustainability and applied research projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Work, Technical]
 horizontal: false
 ---
 

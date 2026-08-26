@@ -5,7 +5,7 @@ title: System Dynamics de Vensim a Python
 description: Re-implementacion en Python (scipy.integrate) de modelos de dinamica de sistemas que originalmente construi en Vensim durante mi MSc en Leeds.
 img: assets/img/projects/p6_systemdyn.png
 importance: 7
-category: fun
+category: Technical
 related_publications: false
 ---
 

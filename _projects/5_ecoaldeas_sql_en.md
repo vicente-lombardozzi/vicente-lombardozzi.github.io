@@ -5,7 +5,7 @@ title: Chilean Ecovillages Database
 description: Design and implementation of a PostgreSQL relational database to manage information on Chilean ecological communities.
 img: assets/img/projects/p5_sql.png
 importance: 6
-category: fun
+category: Technical
 related_publications: false
 ---
 

@@ -5,7 +5,7 @@ title: System Dynamics from Vensim to Python
 description: Python re-implementation (scipy.integrate) of system-dynamics models I originally built in Vensim during my MSc at Leeds.
 img: assets/img/projects/p6_systemdyn.png
 importance: 7
-category: fun
+category: Technical
 related_publications: false
 ---
 

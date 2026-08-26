@@ -5,7 +5,7 @@ title: Chile Indicators Dashboard
 description: Interactive dashboard with World Bank and CASEN data. Built in Plotly as an open-source equivalent to Power BI.
 img: assets/img/projects/p2_powerbi.png
 importance: 3
-category: work
+category: Work
 related_publications: false
 ---
 

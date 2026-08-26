@@ -5,7 +5,7 @@ title: CO2 Emissions in Chile
 description: Python re-analysis of my MSc Leeds 2019 dissertation. KAYA, STIRPAT and 2050 projections.
 img: assets/img/projects/p1_chile_co2.png
 importance: 1
-category: work
+category: Work
 related_publications: false
 ---
 

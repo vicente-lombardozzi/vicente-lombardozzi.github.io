@@ -5,7 +5,7 @@ title: Solar Panels CBA — Chilean High School
 description: Python re-implementation of a real Cost-Benefit Analysis for a 70 kWp PV installation at Liceo Alfredo Nazar Feres (Valparaíso).
 img: assets/img/projects/p7_cba.png
 importance: 2
-category: work
+category: Work
 related_publications: false
 ---
 
