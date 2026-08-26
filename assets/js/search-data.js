@@ -95,16 +95,6 @@ ninja.data = [{
           description: "Statistical analysis in R of economic and time inequality in Chile, using CASEN and ENUT data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_desigualdad_r_en/";
-            },},{id: "projects-sentiment-analysis-en-espanol",
-          title: 'Sentiment Analysis en Espanol',
-          description: "Comparacion de tres enfoques de NLP para clasificar sentimiento en resenas en espanol, desde un lexicon simple hasta TF-IDF y SVM.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_nlp_sentiment/";
-            },},{id: "projects-spanish-sentiment-analysis",
-          title: 'Spanish Sentiment Analysis',
-          description: "Comparison of three NLP approaches to classify sentiment in Spanish-language reviews, from a simple lexicon to TF-IDF and SVM.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_nlp_sentiment_en/";
             },},{id: "projects-base-de-datos-de-ecoaldeas-chilenas",
           title: 'Base de Datos de Ecoaldeas Chilenas',
           description: "Diseno e implementacion de una base de datos relacional PostgreSQL para gestionar informacion sobre comunidades ecologicas chilenas.",
