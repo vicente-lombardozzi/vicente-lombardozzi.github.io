@@ -9,132 +9,74 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publicaciones",
-          title: "Publicaciones",
-          description: "Artículos académicos, libro y tesis publicados, en orden cronológico inverso.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "nav-publications",
-          title: "Publications",
-          description: "Academic articles, book and published theses, in reverse chronological order.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/en/publications/";
-          },
-        },{id: "nav-proyectos",
+  },{id: "nav-proyectos",
           title: "Proyectos",
-          description: "Portafolio de proyectos de análisis de datos, sostenibilidad e investigación aplicada.",
+          description: "Proyectos de análisis de datos, modelamiento y evaluación económica.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Portfolio of data analytics, sustainability and applied research projects.",
+          description: "Data analysis, modelling and economic appraisal projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/en/projects/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Currículum Vitae de Vicente Lombardozzi — Data Analyst &amp; Sustainability Researcher.",
+          description: "Currículum Vitae de Vicente Lombardozzi — Research Analyst, economía y datos.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Curriculum Vitae of Vicente Lombardozzi — Data Analyst &amp; Sustainability Researcher.",
+          description: "Curriculum Vitae of Vicente Lombardozzi — Research Analyst, economics and data.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/en/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-obtuve-el-grado-de-msc-in-ecological-economics-en-la-university-of-leeds-reino-unido-con-una-tesis-sobre-sostenibilidad-económica-de-ecoaldeas",
-          title: '🎓 Obtuve el grado de MSc in Ecological Economics en la University of...',
-          description: "",
-          section: "News",},{id: "news-co-fundador-de-stratnova-un-emprendimiento-en-etapa-inicial-dedicado-a-soluciones-de-ia-conversacional-para-automatización-de-ventas",
-          title: '🧠 Co-fundador de StratNova, un emprendimiento en etapa inicial dedicado a soluciones de...',
-          description: "",
-          section: "News",},{id: "news-portafolio-en-construcción-activa-desarrollando-siete-proyectos-de-data-analytics-aplicados-a-sostenibilidad-economía-ecológica-y-políticas-públicas-en-chile",
-          title: '🚀 Portafolio en construcción activa. Desarrollando siete proyectos de data analytics aplicados a...',
-          description: "",
-          section: "News",},{id: "projects-emisiones-de-co2-en-chile",
-          title: 'Emisiones de CO2 en Chile',
-          description: "Re-analisis en Python de mi tesina del MSc Leeds 2019. KAYA, STIRPAT y proyecciones al 2050.",
+        },{id: "projects-descomposición-del-crecimiento-y-regresiones-log-log",
+          title: 'Descomposición del crecimiento y regresiones log-log',
+          description: "Identidad de Kaya para Chile (1990-2013), regresiones log-log entre 90 países y proyecciones de escenarios. MATLAB (2019) y Python (2026).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_chile_co2/";
-            },},{id: "projects-co2-emissions-in-chile",
-          title: 'CO2 Emissions in Chile',
-          description: "Python re-analysis of my MSc Leeds 2019 dissertation. KAYA, STIRPAT and 2050 projections.",
+            },},{id: "projects-growth-decomposition-and-log-log-regressions",
+          title: 'Growth Decomposition and Log-Log Regressions',
+          description: "Kaya identity for Chile (1990-2013), cross-country log-log regressions (90 countries) and scenario projections. MATLAB (2019) and Python (2026).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_chile_co2_en/";
-            },},{id: "projects-dashboard-indicadores-chile",
-          title: 'Dashboard Indicadores Chile',
-          description: "Dashboard interactivo con datos del Banco Mundial y CASEN. Construido en Plotly como alternativa open-source equivalente a Power BI.",
+            },},{id: "projects-dashboard-de-indicadores-macro-de-chile",
+          title: 'Dashboard de indicadores macro de Chile',
+          description: "Base de datos y dashboard interactivo de indicadores económicos de Chile (2000-2023) con datos públicos.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_powerbi_chile/";
-            },},{id: "projects-chile-indicators-dashboard",
-          title: 'Chile Indicators Dashboard',
-          description: "Interactive dashboard with World Bank and CASEN data. Built in Plotly as an open-source equivalent to Power BI.",
+            },},{id: "projects-chile-macro-indicators-dashboard",
+          title: 'Chile Macro Indicators Dashboard',
+          description: "Database and interactive dashboard of Chilean economic indicators (2000-2023) built from public data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_powerbi_chile_en/";
-            },},{id: "projects-desigualdad-de-ingresos-en-chile",
-          title: 'Desigualdad de Ingresos en Chile',
-          description: "Analisis estadistico en R de desigualdad economica y de tiempo en Chile, usando datos de CASEN y ENUT.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_desigualdad_r/";
-            },},{id: "projects-income-inequality-in-chile",
-          title: 'Income Inequality in Chile',
-          description: "Statistical analysis in R of economic and time inequality in Chile, using CASEN and ENUT data.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_desigualdad_r_en/";
-            },},{id: "projects-base-de-datos-de-ecoaldeas-chilenas",
-          title: 'Base de Datos de Ecoaldeas Chilenas',
-          description: "Diseno e implementacion de una base de datos relacional PostgreSQL para gestionar informacion sobre comunidades ecologicas chilenas.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_ecoaldeas_sql/";
-            },},{id: "projects-chilean-ecovillages-database",
-          title: 'Chilean Ecovillages Database',
-          description: "Design and implementation of a PostgreSQL relational database to manage information on Chilean ecological communities.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_ecoaldeas_sql_en/";
-            },},{id: "projects-system-dynamics-de-vensim-a-python",
-          title: 'System Dynamics de Vensim a Python',
-          description: "Re-implementacion en Python (scipy.integrate) de modelos de dinamica de sistemas que originalmente construi en Vensim durante mi MSc en Leeds.",
+            },},{id: "projects-modelos-dinámicos-de-stock-y-flujo",
+          title: 'Modelos dinámicos de stock y flujo',
+          description: "Reimplementación en Python (scipy) de modelos de dinámica de sistemas trabajados en Vensim durante el MSc.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_system_dynamics/";
-            },},{id: "projects-system-dynamics-from-vensim-to-python",
-          title: 'System Dynamics from Vensim to Python',
-          description: "Python re-implementation (scipy.integrate) of system-dynamics models I originally built in Vensim during my MSc at Leeds.",
+            },},{id: "projects-stock-and-flow-dynamic-models",
+          title: 'Stock-and-Flow Dynamic Models',
+          description: "Python (scipy) re-implementation of system-dynamics models I worked on in Vensim during my MSc.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_system_dynamics_en/";
-            },},{id: "projects-cba-paneles-solares-liceo",
-          title: 'CBA Paneles Solares Liceo',
-          description: "Re-implementacion en Python de un CBA real sobre instalacion de 70 kWp fotovoltaicos en el Liceo Alfredo Nazar Feres (Valparaiso).",
+            },},{id: "projects-evaluación-de-un-proyecto-de-inversión-van-y-sensibilidad",
+          title: 'Evaluación de un proyecto de inversión (VAN y sensibilidad)',
+          description: "Análisis costo-beneficio a 20 años de un proyecto de infraestructura en un liceo de Valparaíso, con dos ofertas reales. Excel (2019) y Python (2026).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_cba_solar/";
-            },},{id: "projects-solar-panels-cba-chilean-high-school",
-          title: 'Solar Panels CBA — Chilean High School',
-          description: "Python re-implementation of a real Cost-Benefit Analysis for a 70 kWp PV installation at Liceo Alfredo Nazar Feres (Valparaíso).",
+            },},{id: "projects-investment-appraisal-npv-and-sensitivity",
+          title: 'Investment Appraisal (NPV and Sensitivity)',
+          description: "20-year cost-benefit analysis of an infrastructure project at a Valparaíso high school, with two real bids. Excel (2019) and Python (2026).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_cba_solar_en/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
