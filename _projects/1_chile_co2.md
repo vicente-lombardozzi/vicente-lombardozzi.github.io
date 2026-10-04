@@ -1,21 +1,22 @@
 ---
 layout: page
 lang: es
-title: Emisiones de CO2 en Chile
-description: Re-analisis en Python de mi tesina del MSc Leeds 2019. KAYA, STIRPAT y proyecciones al 2050.
+title: Descomposición del crecimiento y regresiones log-log
+description: Identidad de Kaya para Chile (1990-2013), regresiones log-log entre 90 países y proyecciones de escenarios. MATLAB (2019) y Python (2026).
 img: assets/img/projects/p1_chile_co2.png
-importance: 1
+importance: 3
 category: Work
 related_publications: false
 ---
 
-Re-analisis en Python de mi tesina del MSc en Economia Ecologica (University of Leeds, 2019).
+Reanálisis en Python de un trabajo evaluado del módulo cuantitativo del MSc (_Tools and Techniques_, University of Leeds, 2019), hecho originalmente en **MATLAB**.
 
-Combina **descomposicion KAYA**, **modelo STIRPAT** (regresion R2 = 0.91) y **proyecciones BAU vs sostenible** al 2050. El analisis original se hizo en Matlab; lo porte a Python con pandas y statsmodels para que sea reproducible.
+**Qué incluye**:
 
-**Resultados clave**:
-- CO2 territorial de Chile crecio 150% entre 1990 y 2013
-- Proyeccion BAU 2030: 163.6 MtCO2 vs meta NDC: 50.1 MtCO2
-- Coeficiente Gini global de CO2: 0.81
+- **Descomposición** de la serie de emisiones de Chile (1990-2013) en población, PIB per cápita, intensidad energética e intensidad de carbono (identidad de Kaya)
+- **Regresiones log-log entre 90 países** (2002), donde los coeficientes se leen como elasticidades respecto de población e ingreso
+- **Proyecciones de escenarios** a 2050 con tasas de crecimiento constantes sobre logaritmos
 
-[Codigo y datos en GitHub](https://github.com/vicente-lombardozzi/vicente-lombardozzi.github.io/tree/main/projects/01_chile_co2_python)
+**Herramientas**: Python (pandas, statsmodels, matplotlib); datos originales en formato MATLAB.
+
+[Código y datos en GitHub](https://github.com/vicente-lombardozzi/vicente-lombardozzi.github.io/tree/main/projects/01_chile_co2_python)

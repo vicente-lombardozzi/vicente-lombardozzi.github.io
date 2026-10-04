@@ -4,7 +4,7 @@ title: About
 permalink: /en/
 lang: en
 alt_url: /
-subtitle: Data Analyst · Sociologist · MSc in Ecological Economics (University of Leeds)
+subtitle: Research Analyst · Economics & Data · MSc, University of Leeds
 
 profile:
   align: right
@@ -12,7 +12,6 @@ profile:
   image_circular: true
   more_info: >
     <p><i class="fa-solid fa-location-dot"></i> Viña del Mar, Chile</p>
-    <p><i class="fa-solid fa-laptop"></i> On-site, remote or hybrid</p>
     <p><i class="fa-solid fa-language"></i> Spanish (native) · English (advanced)</p>
 
 selected_papers: false
@@ -20,31 +19,27 @@ social: true
 
 announcements:
   enabled: false
-  scrollable: true
-  limit: 5
 
 latest_posts:
   enabled: false
-  scrollable: true
-  limit: 3
 ---
 
-I am a **Data Analyst** with a background in sociology and a **Master's in Ecological Economics** from the [University of Leeds](https://www.leeds.ac.uk/), in England. I combine academic methodological rigor with applied analysis for real-world decision-making.
+I am a **research analyst** with a quantitative background. I studied Sociology at Universidad Viña del Mar, where I **graduated first in my class** (6.3 on Chile's 1–7 scale), with four statistics courses up to multiple regression. I then completed an **MSc at the [University of Leeds](https://www.leeds.ac.uk/)** (UK) on a Becas Chile scholarship, graduating with **Merit**. My training there focused on applied statistics, modelling and scenario projections in MATLAB, simulation, cost-benefit analysis, and a monetary policy module at Leeds University Business School.
 
-I have over 2 years of experience in quantitative analysis and research, including one year as a **Research Analyst at [Ipsos](https://www.ipsos.com/)** analyzing data from 24,000+ users across 11 countries, experience **training large language models (LLMs) at Outlier**, and field work for the **Chilean National Institute of Statistics** on the 2024 census.
+### Experience
 
-I work with **Python, SQL, Power BI, R, advanced Excel and Stata**. My professional focus is the intersection between **data analytics and sustainability**: data applied to climate change, energy, public policy and the circular economy.
+- **Ipsos Chile — Research Analyst** (Jun 2022 – Sep 2023). Brand Health Tracking team: recurring reports on **33 KPIs for five Latin American markets** against a historical benchmark, an online community of **20,000+ members** across five countries, and quarterly tracking for a regional financial-services account (pensions, mutual funds and insurance).
+- **Chile's National Statistics Institute (INE) — 2024 Population and Housing Census.** Territorial access officer in Valparaíso: I worked inside the production of an official statistic (coverage, non-response revisits, data validation and statistical confidentiality).
+- **Outlier — AI Data Trainer** (2024–2025): evaluating and validating large language model outputs in Spanish and English.
 
-As a published sociologist (4 peer-reviewed academic articles and 1 book on ecological communities), I understand that data is only useful when it is translated into **clear narratives for different audiences**. That is the bridge I build in every project.
+### Tools
 
-### Current availability
+**Stata, R, SPSS, MATLAB, Excel (pivot tables, VBA) and Power BI**; Python and SQL at a basic level.
 
-I am looking for opportunities as a **Data Analyst, Sustainability Data Analyst or Research Analyst**. Open to **on-site or remote work from Viña del Mar / Valparaíso**, or to a **hybrid setup with occasional travel to Santiago** (once or twice a week), as I did during my time at Ipsos.
+### Interests
 
-### Complementary writing
+Latin American macroeconomics (growth, inflation, labour markets and monetary policy), economic databases and time-series forecasting. I am currently working through *Forecasting: Principles and Practice* (Hyndman & Athanasopoulos).
 
-In addition to this portfolio, I keep a research blog in English on ecovillages, community resilience and ecological economics: [**Understanding Ecovillages**](https://understandingecovillages.blogspot.com/). There I publish excerpts from my master's thesis and related academic articles.
+I have also published **peer-reviewed sociology research** in Spanish and English (see [CV](/en/cv/)).
 
-### Explore the site
-
-You can check out my [data analytics projects](/en/projects/), my [academic publications](/en/publications/) or download my [CV in PDF]({{ '/assets/pdf/CV_Vicente_Lombardozzi.pdf' | relative_url }}).
+Browse my [projects](/en/projects/) or my [CV](/en/cv/).

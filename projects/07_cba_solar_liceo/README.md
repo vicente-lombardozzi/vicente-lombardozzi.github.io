@@ -1,4 +1,4 @@
-# Proyecto 7 — CBA Paneles Solares · Liceo Alfredo Nazar Feres (Valparaíso)
+# Proyecto 7 — Evaluación de un proyecto de inversión: VAN y sensibilidad (Valparaíso)
 
 Re-implementación en Python del análisis costo-beneficio que originalmente realicé en Excel durante mi MSc en Leeds (2019), evaluando 70 kWp de paneles fotovoltaicos en una escuela pública chilena bajo el programa "Techos Solares Públicos".
 
@@ -47,5 +47,7 @@ python src/cba_liceo_solar.py
 | **Propuesta 2 — Ecolife** | **+62.288** ⭐ |
 | Propuesta 2 — actualizado 2026 | **+96.486** |
 | Peor escenario combinado | -3.880 |
+
+Nota: estas cifras corresponden a la re-implementación de 2026 y dependen de sus supuestos de tarifa eléctrica e inversión (documentados en `src/cba_liceo_solar.py`); difieren de las del informe original de 2019.
 
 Ver tarjeta del proyecto en el portafolio: [/projects/7_cba_solar/](https://vicente-lombardozzi.github.io/projects/7_cba_solar/)

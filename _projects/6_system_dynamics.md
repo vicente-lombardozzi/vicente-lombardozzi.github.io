@@ -1,21 +1,22 @@
 ---
 layout: page
 lang: es
-title: System Dynamics de Vensim a Python
-description: Re-implementacion en Python (scipy.integrate) de modelos de dinamica de sistemas que originalmente construi en Vensim durante mi MSc en Leeds.
+title: Modelos dinámicos de stock y flujo
+description: Reimplementación en Python (scipy) de modelos de dinámica de sistemas trabajados en Vensim durante el MSc.
 img: assets/img/projects/p6_systemdyn.png
-importance: 7
+importance: 4
 category: Technical
 related_publications: false
 ---
 
-Re-implementacion en **Python (scipy.integrate.odeint)** de modelos de dinamica de sistemas que originalmente construi en **Vensim** durante el Assignment 2 del curso *Tools and Techniques in Ecological Economics* (MSc Leeds 2019).
+Reimplementación en **Python (scipy.integrate)** de modelos de dinámica de sistemas que trabajé en **Vensim** en el curso _Tools and Techniques_ del MSc (University of Leeds, 2019).
 
-**Modelos incluidos**:
-- **Lotka-Volterra** (depredador-presa) con plano de fase
-- **Savings-Income** (acumulacion de capital, equilibrio dinamico)
-- **Recurso renovable logistico** con extraccion (sostenibilidad vs colapso)
+**Modelos**:
 
-**Por que Python en lugar de Vensim**: Vensim es software cerrado y de pago (~1.295 USD/ano). Python con scipy es gratis, abierto y reproducible. Misma matematica, mejor portabilidad.
+- **Ahorro-ingreso**: acumulación de capital y equilibrio dinámico
+- **Lotka-Volterra**: dos poblaciones que interactúan, con plano de fase
+- **Recurso renovable con extracción**: comparación de tasas de extracción bajas y altas
 
-[Codigo Python y modelos Vensim originales en GitHub](https://github.com/vicente-lombardozzi/vicente-lombardozzi.github.io/tree/main/projects/06_system_dynamics_python)
+**Por qué Python**: Vensim es software cerrado y de pago; con Python el modelo queda abierto, versionado y reproducible.
+
+[Código y modelos originales en GitHub](https://github.com/vicente-lombardozzi/vicente-lombardozzi.github.io/tree/main/projects/06_system_dynamics_python)

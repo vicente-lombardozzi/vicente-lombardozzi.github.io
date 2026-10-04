@@ -1,12 +1,12 @@
-# Proyecto 6 — System Dynamics: de Vensim a Python
+# Proyecto 6 — Modelos dinámicos de stock y flujo: de Vensim a Python
 
-Re-implementación en Python (`scipy.integrate`) de modelos de dinámica de sistemas que originalmente construí en **Vensim** durante mi MSc en Leeds (2019).
+Re-implementación en Python (`scipy.integrate`) de modelos de dinámica de sistemas que trabajé en **Vensim** en el curso *Tools and Techniques* del MSc en Leeds (2019).
 
 ## Modelos incluidos
 
 1. **Lotka-Volterra** (depredador-presa) — series temporales y plano de fase
 2. **Savings-Income** — modelo de stock-flow para acumulación de capital
-3. **Recurso renovable logístico** — comparación de tasas de extracción sostenible vs. excesiva
+3. **Recurso renovable logístico** — comparación de tasas de extracción bajas y altas
 
 ## Estructura
 

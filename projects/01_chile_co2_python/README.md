@@ -1,6 +1,6 @@
-# Proyecto 1 — Emisiones de CO₂ de Chile (1990–2050)
+# Proyecto 1 — Descomposición del crecimiento y regresiones log-log (Chile, 1990–2050)
 
-Re-análisis en Python de mi tesina del MSc en Economía Ecológica (University of Leeds, 2019). Combina **descomposición KAYA**, **regresión STIRPAT** y **proyecciones de escenarios** al 2050.
+Re-análisis en Python de un trabajo evaluado del módulo cuantitativo del MSc (*Tools and Techniques*, University of Leeds, 2019), hecho originalmente en MATLAB. Combina **descomposición de Kaya**, **regresiones log-log entre 90 países (2002)** y **proyecciones de escenarios** al 2050.
 
 ## Estructura
 
@@ -37,7 +37,7 @@ python src/analysis_chile_co2.py
 
 - **Identidad KAYA verificada** (error matemático despreciable)
 - **CO₂ creció 150 %** entre 1990 y 2013 (de 33,3 a 83,2 MtCO₂)
-- **Modelo STIRPAT R² = 0.91**, elasticidad PIB = 0,74
-- **Proyección BAU 2030**: 163,6 MtCO₂ (vs meta NDC = 50,1 MtCO₂)
+- **Regresión log-log entre países**: coeficientes interpretados como elasticidades (ver `stirpat_coefficients.csv`)
+- **Proyecciones de escenarios** a 2050 con tasas de crecimiento constantes sobre logaritmos
 
 Ver tarjeta del proyecto en el portafolio: [/projects/1_chile_co2/](https://vicente-lombardozzi.github.io/projects/1_chile_co2/)

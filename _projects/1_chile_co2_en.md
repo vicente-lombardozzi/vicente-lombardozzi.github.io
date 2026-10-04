@@ -1,21 +1,22 @@
 ---
 layout: page
 lang: en
-title: CO2 Emissions in Chile
-description: Python re-analysis of my MSc Leeds 2019 dissertation. KAYA, STIRPAT and 2050 projections.
+title: Growth Decomposition and Log-Log Regressions
+description: Kaya identity for Chile (1990-2013), cross-country log-log regressions (90 countries) and scenario projections. MATLAB (2019) and Python (2026).
 img: assets/img/projects/p1_chile_co2.png
-importance: 1
+importance: 3
 category: Work
 related_publications: false
 ---
 
-Python re-analysis of my MSc Ecological Economics dissertation (University of Leeds, 2019).
+Python re-analysis of an assessed piece from the quantitative module of my MSc (_Tools and Techniques_, University of Leeds, 2019), originally built in **MATLAB**.
 
-Combines **KAYA decomposition**, the **STIRPAT model** (regression R² = 0.91) and **BAU vs sustainable projections** to 2050. The original analysis was done in MATLAB; I ported it to Python with pandas and statsmodels for reproducibility.
+**What it covers**:
 
-**Key results**:
-- Chile's territorial CO2 grew 150% between 1990 and 2013
-- BAU projection 2030: 163.6 MtCO2 vs NDC target: 50.1 MtCO2
-- Global CO2 Gini coefficient: 0.81
+- **Decomposition** of Chile's emissions series (1990-2013) into population, GDP per capita, energy intensity and carbon intensity (Kaya identity)
+- **Cross-country log-log regressions** (90 countries, 2002), with coefficients read as elasticities with respect to population and income
+- **Scenario projections** to 2050 using constant growth rates on logs
+
+**Tools**: Python (pandas, statsmodels, matplotlib); original data in MATLAB format.
 
 [Code and data on GitHub](https://github.com/vicente-lombardozzi/vicente-lombardozzi.github.io/tree/main/projects/01_chile_co2_python)

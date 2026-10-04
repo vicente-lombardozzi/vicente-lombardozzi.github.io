@@ -4,7 +4,7 @@ title: Projects
 permalink: /en/projects/
 lang: en
 alt_url: /projects/
-description: Portfolio of data analytics, sustainability and applied research projects.
+description: Data analysis, modelling and economic appraisal projects.
 nav: true
 nav_order: 3
 display_categories: [Work, Technical]

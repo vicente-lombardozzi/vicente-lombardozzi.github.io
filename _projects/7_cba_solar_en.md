@@ -1,32 +1,22 @@
 ---
 layout: page
 lang: en
-title: Solar Panels CBA — Chilean High School
-description: Python re-implementation of a real Cost-Benefit Analysis for a 70 kWp PV installation at Liceo Alfredo Nazar Feres (Valparaíso).
+title: Investment Appraisal (NPV and Sensitivity)
+description: 20-year cost-benefit analysis of an infrastructure project at a Valparaíso high school, with two real bids. Excel (2019) and Python (2026).
 img: assets/img/projects/p7_cba.png
 importance: 2
 category: Work
 related_publications: false
 ---
 
-**Real** Cost-Benefit Analysis (CBA) on the installation of solar PV panels at **Liceo Técnico Alfredo Nazar Feres** in Valparaíso, under Chile's Ministry of Energy "Public Solar Rooftops" programme.
+**Cost-benefit analysis** of a real energy-infrastructure project (a 70 kWp photovoltaic plant) at a technical high school in Valparaíso, submitted to a Ministry of Energy programme.
 
-**Real project data**:
-- 1,200 students, 805 m² of usable roof area, **70 kWp** plant (280 PV modules of 250 Wp)
-- 2 actual bids from Chilean firms: **Ecoambiente Ingeniería** and **Ecolife**
-- Official correspondence with the Ministry of Energy (with documented response)
-- Project lifetime: 20 years
-- Discount rate: 3.5% (HM Treasury Green Book)
+**Method**:
 
-**Results (base scenario, Bid 2 - Ecolife)**:
+- **20-year cash flows** for two real bids from Chilean firms, against the no-project scenario
+- **Net present value (NPV)** at a 3.5% discount rate (HM Treasury Green Book) and an alternative 10% rate
+- **Sensitivity analysis**: electricity tariff (±20%), discount rate and a combined downside scenario
 
-| Scenario | 20-year NPV (USD) |
-|---|---|
-| No project (BAU) | -146,544 |
-| **Bid 2 - Ecolife** | **+62,288** |
-| Bid 2 - 2026 update | **+96,486** |
-| Worst-case combined | -3,880 |
+**Tools**: I built the original analysis in **Excel** during my MSc (2019); in 2026 I re-implemented it in **Python** (pandas) to make it reproducible and update parameters. Results depend on tariff and investment-cost assumptions documented in the code.
 
-In 2026 I re-implemented the entire analysis in **Python** and updated parameters: the CO2 price rose from USD 17.6/ton (2018) to USD 85/ton (2026), almost 5x.
-
-[Python code, Excel workbook and 2019 official documents on GitHub](https://github.com/vicente-lombardozzi/vicente-lombardozzi.github.io/tree/main/projects/07_cba_solar_liceo)
+[Code, Excel workbook and original documents on GitHub](https://github.com/vicente-lombardozzi/vicente-lombardozzi.github.io/tree/main/projects/07_cba_solar_liceo)

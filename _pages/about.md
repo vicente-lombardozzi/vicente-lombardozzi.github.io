@@ -4,7 +4,7 @@ title: Sobre mí
 permalink: /
 lang: es
 alt_url: /en/
-subtitle: Data Analyst · Sociólogo · MSc en Economía Ecológica (University of Leeds)
+subtitle: Research Analyst · Economía y datos · MSc, University of Leeds
 
 profile:
   align: right
@@ -12,39 +12,34 @@ profile:
   image_circular: true
   more_info: >
     <p><i class="fa-solid fa-location-dot"></i> Viña del Mar, Chile</p>
-    <p><i class="fa-solid fa-laptop"></i> Presencial, remoto o híbrido</p>
-    <p><i class="fa-solid fa-language"></i> Español · Inglés avanzado</p>
+    <p><i class="fa-solid fa-language"></i> Español (nativo) · Inglés (avanzado)</p>
 
 selected_papers: false
 social: true
 
 announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
+  enabled: false
 
 latest_posts:
   enabled: false
-  scrollable: true
-  limit: 3
 ---
 
-Soy **Data Analyst** con formación en sociología y un **Máster en Economía Ecológica** de la [University of Leeds](https://www.leeds.ac.uk/), en Inglaterra. Combino rigor metodológico académico con análisis aplicado a la toma de decisiones en contextos reales.
+Soy **research analyst** con formación cuantitativa. Estudié Sociología en la Universidad Viña del Mar, donde egresé en el **primer lugar de mi generación** (6,3 en escala de 1 a 7), con cuatro cursos de estadística hasta regresión múltiple. Luego hice un **MSc en la [University of Leeds](https://www.leeds.ac.uk/)** (Reino Unido), con beca Becas Chile, egresando con **Merit**. Mi formación ahí se centró en estadística aplicada, modelamiento y proyección de escenarios en MATLAB, simulación, análisis costo-beneficio y un módulo de política monetaria en la Leeds University Business School.
 
-Tengo más de 2 años de experiencia en análisis cuantitativo e investigación, incluyendo un año como **Research Analyst en [Ipsos](https://www.ipsos.com/)** analizando datos de 24.000+ usuarios en 11 países, experiencia en **entrenamiento de modelos de lenguaje (LLMs) en Outlier**, y trabajo de campo para el **Instituto Nacional de Estadísticas de Chile** en el censo 2024.
+### Experiencia
 
-Trabajo con **Python, SQL, Power BI, R, Excel avanzado y Stata**. Mi foco profesional es la intersección entre **análisis de datos y sostenibilidad**: datos aplicados a cambio climático, energía, política pública y economía circular.
+- **Ipsos Chile — Research Analyst** (jun-2022 a sep-2023). Equipo de Brand Health Tracking: reportes recurrentes de **33 KPIs para cinco mercados latinoamericanos** frente a una línea base histórica, una comunidad online de **más de 20.000 miembros** en cinco países y seguimiento trimestral para una cuenta regional de servicios financieros (pensiones, fondos mutuos y seguros).
+- **Instituto Nacional de Estadísticas (INE) — Censo de Población y Vivienda 2024.** Gestor de Apertura Territorial en Valparaíso: participé desde dentro en la producción de una estadística oficial (cobertura, revisitas por no respuesta, validación de datos y secreto estadístico).
+- **Outlier — AI Data Trainer** (2024-2025): evaluación y validación de respuestas de modelos de lenguaje en español e inglés.
 
-Como sociólogo publicado (4 artículos académicos y 1 libro sobre comunidades ecológicas), entiendo que los datos solo son útiles cuando se convierten en **narrativas claras para distintos públicos**. Ese es el puente que construyo en cada proyecto.
+### Herramientas
 
-### Disponibilidad actual
+**Stata, R, SPSS, MATLAB, Excel (tablas dinámicas, VBA) y Power BI**; Python y SQL a nivel básico.
 
-Busco oportunidades como **Data Analyst, Sustainability Data Analyst o Research Analyst**. Abierto a **trabajo presencial o remoto desde Viña del Mar / Valparaíso**, o bien a **modalidad híbrida con viajes puntuales a Santiago** (una o dos veces por semana), tal como lo hice durante mi etapa en Ipsos.
+### Intereses
 
-### Escritura complementaria
+Macroeconomía latinoamericana (crecimiento, inflación, mercado laboral y política monetaria), bases de datos económicas y pronóstico de series de tiempo. Actualmente estudio *Forecasting: Principles and Practice* (Hyndman y Athanasopoulos).
 
-Además del presente portafolio, mantengo un blog de investigación en inglés sobre ecoaldeas, resiliencia comunitaria y economía ecológica: [**Understanding Ecovillages**](https://understandingecovillages.blogspot.com/). Allí publico extractos de mi tesis de máster y artículos académicos relacionados.
+También tengo **publicaciones académicas arbitradas** en sociología, en español y en inglés (ver [CV](/cv/)).
 
-### Explora el sitio
-
-Puedes revisar mis [proyectos de análisis de datos](/projects/), mis [publicaciones académicas](/publications/) o descargar mi [CV en PDF]({{ '/assets/pdf/CV_Vicente_Lombardozzi.pdf' | relative_url }}).
+Puedes revisar mis [proyectos](/projects/) o mi [CV](/cv/).

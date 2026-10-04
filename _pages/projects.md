@@ -4,7 +4,7 @@ title: Proyectos
 permalink: /projects/
 lang: es
 alt_url: /en/projects/
-description: Portafolio de proyectos de análisis de datos, sostenibilidad e investigación aplicada.
+description: Proyectos de análisis de datos, modelamiento y evaluación económica.
 nav: true
 nav_order: 3
 display_categories: [Work, Technical]
